@@ -24,18 +24,18 @@ export const SidebarRoutes = () => {
 
   const pathname = usePathname();
 
-  // const onClick = () => {
-  //   if (shouldBlock) {
-  //     triggerPaywall();
-  //     return;
-  //   }
+  /* const onClick = () => {
+    if (shouldBlock) {
+      triggerPaywall();
+      return;
+    }
 
-  //   billingMutation.mutate();
-  // };
+    billingMutation.mutate();
+  }; */
 
   return (
     <div className="flex flex-col gap-y-4 flex-1">
-      {/* {shouldBlock && !isLoading && (
+      {/* shouldBlock && !isLoading && (
         <>
           <div className="px-3">
             <Button
@@ -53,7 +53,7 @@ export const SidebarRoutes = () => {
             <Separator />
           </div>
         </>
-      )} */}
+      ) */}
       <ul className="flex flex-col gap-y-1 px-3">
         <SidebarItem
           href="/"
