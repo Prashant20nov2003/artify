@@ -46,7 +46,7 @@ export const SidebarRoutes = () => {
               size="lg"
             >
               <Crown className="mr-2 size-4 fill-yellow-500 text-yellow-500" />
-              Upgrade to Artify Pro
+              Upgrade to Image AI Pro
             </Button>
           </div>
           <div className="px-3">
